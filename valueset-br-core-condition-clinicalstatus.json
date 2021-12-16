@@ -1,0 +1,35 @@
+{
+    "resourceType": "ValueSet",
+    "id": "br-core-condition-clinicalstatus",
+    "meta": {
+        "lastUpdated": "2020-03-12T13:09:54.402+00:00"
+    },
+    "language": "pt-BR",
+    "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+    "version": "1.0",
+    "name": "Estado da Resolução de Diagnóstico ou Problema.",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-03-12T13:09:53.3447193+00:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "description": "Estado da resolução de um diagnóstico ou problema.",
+    "immutable": false,
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+                "version": "*",
+                "concept": [
+                    {
+                        "code": "active",
+                        "display": "Não Resolvido ou Resolvendo"
+                    },
+                    {
+                        "code": "resolved",
+                        "display": "Resolvido"
+                    }
+                ]
+            }
+        ]
+    }
+}

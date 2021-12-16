@@ -1,0 +1,63 @@
+{
+    "resourceType": "ValueSet",
+    "id": "br-core-observation-category",
+    "meta": {
+        "lastUpdated": "2020-06-09T17:07:02.242+00:00"
+    },
+    "language": "pt-BR",
+    "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaObservacao-1.0",
+    "version": "1.0",
+    "name": "Categoria da observação",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-06-09T17:07:24.6148832+00:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "description": "Classifica a observação clínica realizada, conforme especificado no padrão FHIR.",
+    "immutable": false,
+    "compose": {
+        "include": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "version": "*",
+                "concept": [
+                    {
+                        "code": "social-history",
+                        "display": "História social"
+                    },
+                    {
+                        "code": "vital-signs",
+                        "display": "Sinais vitais"
+                    },
+                    {
+                        "code": "imaging",
+                        "display": "Imagem"
+                    },
+                    {
+                        "code": "laboratory",
+                        "display": "Laboratório"
+                    },
+                    {
+                        "code": "procedure",
+                        "display": "Procedimento"
+                    },
+                    {
+                        "code": "survey",
+                        "display": "Avaliação"
+                    },
+                    {
+                        "code": "exam",
+                        "display": "Exame físico"
+                    },
+                    {
+                        "code": "therapy",
+                        "display": "Terapia"
+                    },
+                    {
+                        "code": "activity",
+                        "display": "Atividade corporal"
+                    }
+                ]
+            }
+        ]
+    }
+}
