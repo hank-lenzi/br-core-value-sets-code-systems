@@ -1,0 +1,27 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "44b7d8e1-1209-4ffe-b236-b03e76422bf3",
+    "meta": {
+        "lastUpdated": "2020-08-12T14:17:51.406+00:00"
+    },
+    "language": "pt-BR",
+    "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
+    "version": "201701A",
+    "name": "Tipo de Logradouro",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-08-12T14:17:51.51894+00:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "description": "Classificação os tipos de logradouros existentes para uso em endereços estruturados.",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "008",
+            "display": "Avenida"
+        },
+        {
+            "code": "081",
+            "display": "Rua"
+        }
+    ]
+}

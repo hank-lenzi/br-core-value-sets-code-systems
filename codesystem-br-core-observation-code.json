@@ -1,0 +1,107 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "0d652ad3-e29a-4353-a011-4adef4b1bdce",
+    "meta": {
+        "lastUpdated": "2020-06-09T18:44:29.869+00:00"
+    },
+    "language": "pt-BR",
+    "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
+    "version": "201701A",
+    "name": "Tipo de Observação",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-06-09T18:44:54.7631998+00:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "description": "Tipo de Observação.",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "DSIA",
+            "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+        },
+        {
+            "code": "RECIDI",
+            "display": "Resumo da evolução clínica do indivíduo durante a internação"
+        },
+        {
+            "code": "DF",
+            "display": "Dados do desfecho"
+        },
+        {
+            "code": "IAC",
+            "display": "Informações Adicionais/Complementares"
+        },
+        {
+            "code": "P",
+            "display": "Peso"
+        },
+        {
+            "code": "A",
+            "display": "Altura"
+        },
+        {
+            "code": "PC",
+            "display": "Perímetro Cefálico"
+        },
+        {
+            "code": "CA",
+            "display": "Circunferência Abdominal"
+        },
+        {
+            "code": "PA",
+            "display": "Pressão Arterial"
+        },
+        {
+            "code": "PAS",
+            "display": "Pressão Arterial Sistólica"
+        },
+        {
+            "code": "PAD",
+            "display": "Pressão Arterial Diastólica"
+        },
+        {
+            "code": "DUM",
+            "display": "Data da Última Menstruação"
+        },
+        {
+            "code": "IG",
+            "display": "Idade Gestacional"
+        },
+        {
+            "code": "QGP",
+            "display": "Quantidade de Gestas Prévias"
+        },
+        {
+            "code": "QP",
+            "display": "Quantidade de Partos"
+        },
+        {
+            "code": "QA",
+            "display": "Quantidade de Abortos"
+        },
+        {
+            "code": "IGS",
+            "display": "Idade Gestacional em semanas"
+        },
+        {
+            "code": "IGD",
+            "display": "Idade Gestacional em dias"
+        },
+        {
+            "code": "UFIT",
+            "display": "Uso de fitoterápicos, suplementos e vitaminas"
+        },
+        {
+            "code": "UAT",
+            "display": "Uso de álcool, tabaco e outras substâncias"
+        },
+        {
+            "code": "UOS",
+            "display": "Outras substâncias não especificadas"
+        },
+        {
+            "code": "ACM",
+            "display": "Alimentação da criança menor de 2 anos"
+        }
+    ]
+}

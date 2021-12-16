@@ -1,0 +1,71 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "observation-category",
+    "meta": {
+        "lastUpdated": "2020-03-26T13:16:25.364+00:00"
+    },
+    "language": "pt-BR",
+    "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRSubgrupoTabelaSUS",
+    "version": "201701A",
+    "name": "Subgrupo da Tabela SUS",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-03-26T13:16:24.2409223+00:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "description": "O subgrupo é o segundo nível da hierarquia da Tabela SUS e seus códigos ajudam a classificar e localizar procedimentos.",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0202",
+            "display": "Diagnóstico em laboratório clínico"
+        },
+        {
+            "code": "0203",
+            "display": "Diagnóstico em anatomia patológica e citopatologia"
+        },
+        {
+            "code": "0204",
+            "display": "Diagnóstico em radiologia"
+        },
+        {
+            "code": "0205",
+            "display": "Diagnóstico em ultrassonografia"
+        },
+        {
+            "code": "0206",
+            "display": "Diagnóstico em tomografia"
+        },
+        {
+            "code": "0207",
+            "display": "Diagnóstico em ressonância magnética"
+        },
+        {
+            "code": "0208",
+            "display": "Diagnóstico em medicina nuclear in vitro"
+        },
+        {
+            "code": "0209",
+            "display": "Diagnóstico em endoscopia"
+        },
+        {
+            "code": "0210",
+            "display": "Diagnóstico em radiologia intervencionista"
+        },
+        {
+            "code": "0211",
+            "display": "Métodos diagnósticos em especialidades"
+        },
+        {
+            "code": "0212",
+            "display": "Diagnóstico e procedimentos especiais em hemoterapia"
+        },
+        {
+            "code": "0213",
+            "display": "Diagnóstico em vigilância epidemiológica e ambiental"
+        },
+        {
+            "code": "0214",
+            "display": "Diagnóstico por teste rápido"
+        }
+    ]
+}
